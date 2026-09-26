@@ -279,6 +279,16 @@ img{max-width:100%}
   .howto ol{margin:0;padding-left:1.25em;display:grid;gap:13px;color:var(--ink-2)}
   .howto ol li::marker{color:var(--klein);font-weight:800}
 
+  .legal{padding-block:clamp(36px,5vw,56px);border-top:1px solid var(--rule)}
+  .legal h2{font-size:var(--s-1);font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+  .legal .sec-num{margin-bottom:10px}
+  .legal-grid{display:flex;gap:clamp(24px,4vw,48px);flex-wrap:wrap;margin-top:22px}
+  .legal-col{flex:1 1 20rem;min-width:0}
+  .legal-col h3{font-size:var(--s--1);letter-spacing:.14em;text-transform:uppercase;
+                color:var(--gold);font-weight:600;margin-bottom:10px}
+  .legal-col p{font-size:var(--s--1);color:var(--ink-2);max-width:46ch;margin-bottom:10px}
+  .legal-col p:last-child{margin-bottom:0}
+
   footer{border-top:1px solid var(--rule);padding-block:34px 46px;font-size:var(--s--1);color:var(--meta)}
   .foot-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:flex-end}
   .foot-in p{max-width:46ch}
@@ -307,6 +317,7 @@ img{max-width:100%}
       <li><a href="#apie">Apie</a></li>
       <li><a href="#duk">DUK</a></li>
       <li><a href="#kontaktai">Kontaktai</a></li>
+      <li><a href="#privatumas">Privatumas</a></li>
     </ul>
   </div>
 </nav>
@@ -608,6 +619,16 @@ img{max-width:100%}
           <div class="val">Pagal išankstinę registraciją</div>
           <div class="sub">Laikas derinamas individualiai</div>
         </div>
+        <div class="cline">
+          <div class="lbl">Prieinamumas</div>
+          <div class="val">Pasakoma iš anksto</div>
+          <div class="sub">Registruojantis nurodau, ar į patalpas patenkama be laiptų, ir kur statyti automobilį</div>
+        </div>
+        <div class="cline">
+          <div class="lbl">Kompensavimas</div>
+          <div class="val">Nekompensuojama</div>
+          <div class="sub">Paslaugos teikiamos privačiai ir nėra apmokamos Valstybinės ligonių kasos lėšomis</div>
+        </div>
       </div>
 
       <div class="howto">
@@ -617,6 +638,28 @@ img{max-width:100%}
           <li>Susitariame dėl 90 min vertinimo laiko. Jeigu turite ortopedo išvadą ar rentgenogramą, atsineškite.</li>
           <li>Po vertinimo gaunate programą raštu ir aiškų atsakymą, ar tolesnis darbas reikalingas.</li>
         </ol>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="privatumas" class="wrap legal">
+    <span class="sec-num">Privatumas</span>
+    <h2>Kokie duomenys renkami</h2>
+
+    <div class="legal-grid">
+      <div class="legal-col">
+        <h3>Šiame puslapyje</h3>
+        <p>Puslapis nerenka jokių duomenų. Nėra registracijos formos, nėra slapukų, nėra lankytojų sekimo ar analitikos.</p>
+        <p>Šriftai įkelti į patį puslapį, todėl jūsų naršyklė nesikreipia į trečiųjų šalių serverius ir IP adresas jiems nekeliauja.</p>
+        <p>Puslapis talpinamas Vercel platformoje, kuri techniniais tikslais fiksuoja serverio užklausas — tai įprasta bet kuriam interneto puslapiui.</p>
+      </div>
+
+      <div class="legal-col">
+        <h3>Susisiekus</h3>
+        <p>Parašius el. laišką ar paskambinus, pateikti duomenys — vardas, kontaktas, vaiko amžius — naudojami tik vizitui suderinti ir tretiesiems asmenims neteikiami.</p>
+        <p>Vizito metu surinkti sveikatos duomenys tvarkomi teisės aktų nustatyta tvarka, saugomi atskirai ir be jūsų sutikimo neatskleidžiami, išskyrus įstatymų numatytus atvejus.</p>
+        <p>Duomenų valdytoja — Kristina Vilimaitė. Turite teisę susipažinti su savo duomenimis, juos ištaisyti, ištrinti ar apriboti jų tvarkymą; dėl to kreipkitės el. paštu. Skundą galima teikti Valstybinei duomenų apsaugos inspekcijai.</p>
       </div>
     </div>
   </section>
